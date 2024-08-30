@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Glorified Fanpage</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="title"><img src="images/A-glorified-bush.png" class="bush"> Glorified Bush Fanpage</div>
+
+    <div class="container">
+        <div class="intro"> Welcome to A Glorified Fanpage! Where you can keep up to date on all of the recent shrubby news. Sign up now to recieve our Newsletter!</div>
+        
+        <div class="call">Join my Garden and become a Shrub today!</div>
+
+        <div class="form"> 
+            <form action="notasite.com/bush" method="post">
+                
+                <fieldset>
+
+                    <legend>Who are you?</legend>
+
+                    <label for="first-name">First Name</label>
+                    <input type="text" id="first-name" placeholder="Justa" required>
+
+                    <label for="last-name">Last Name</label>
+                    <input type="text" id="last-name" placeholder="Shrub" required>
+
+                </fieldset>
+
+                <fieldset>
+
+                    <legend>How can we contact you?</legend>
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="shrubdonatron3000@email.com" required>
+
+                    <label for="phone">Phone Number</label>
+                    <input type="number" id="phone" title="Needs 10 digit number with spaces, hyphens or decimals in between" pattern="([\d]{3})[-\. ]?[\d]{3}[-\. ]?[\d]{4}" placeholder="888-245-6039" required>
+                
+                </fieldset>
+
+                <fieldset>
+
+                    <legend>Secure your account!</legend>
+
+                    <label for="password">Password</label>
+                    <input type="password" id="password" required>
+
+                    <label for="re-pass">Confirm Password</label>
+                    <input type="password" id="re-pass" required>
+
+                </fieldset>
+
+                <button type="submit">Sign Up!</button>
+
+                <div class="login">Have an account already? <a href="google.com">Log in</a></div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
