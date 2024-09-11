@@ -4,60 +4,68 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>A Glorified Fanpage</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-    <div class="title"><img src="images/A-glorified-bush.png" class="bush"> Glorified Bush Fanpage</div>
+<body>    
 
     <div class="container">
-        <div class="intro"> Welcome to A Glorified Fanpage! Where you can keep up to date on all of the recent shrubby news. Sign up now to recieve our Newsletter!</div>
+
+        <div class="title"><img src="images/A-glorified-bush.png" class="bush"> Glorified Bush Fanpage</div>
+
+        <div class="info">
+            <div class="intro"> Welcome to A Glorified Fanpage! Where you can keep up to date on all of the recent shrubby news. Sign up now to recieve our Newsletter!</div>
         
-        <div class="call">Join my Garden and become a Shrub today!</div>
+            <div class="call">Join my Garden and become a Shrub today!</div>
 
-        <div class="form"> 
-            <form action="notasite.com/bush" method="post">
+            <div class="form"> 
+                <form action="notasite.com/bush" method="post">
                 
-                <fieldset>
+                    <fieldset>
 
-                    <legend>Who are you?</legend>
+                        <legend class="name">Who are you?</legend>
 
-                    <label for="first-name">First Name</label>
-                    <input type="text" id="first-name" placeholder="Justa" required>
+                        <label for="first-name">First Name</label>
+                        <input type="text" id="first-name" placeholder="Justa" required>
 
-                    <label for="last-name">Last Name</label>
-                    <input type="text" id="last-name" placeholder="Shrub" required>
+                        <label for="last-name">Last Name</label>
+                        <input type="text" id="last-name" placeholder="Shrub" required>
 
-                </fieldset>
+                    </fieldset>
 
-                <fieldset>
+                    <fieldset>
 
-                    <legend>How can we contact you?</legend>
+                        <legend class="contact">How can we contact you?</legend>
 
-                    <label for="email">Email</label>
-                    <input type="email" id="email" placeholder="shrubdonatron3000@email.com" required>
+                        <label for="email">Email</label>
+                        <input type="email" id="email" placeholder="shrubdonatron3000@email.com" required>
 
-                    <label for="phone">Phone Number</label>
-                    <input type="number" id="phone" title="Needs 10 digit number with spaces, hyphens or decimals in between" pattern="([\d]{3})[-\. ]?[\d]{3}[-\. ]?[\d]{4}" placeholder="888-245-6039" required>
+                        <label for="phone">Phone Number</label>
+                        <input type="text" id="phone" title="Needs 10 digit number with spaces, hyphens or decimals in between" pattern="([\d]{3})[-\. ]?[\d]{3}[-\. ]?[\d]{4}" placeholder="888-245-6039" required>
                 
-                </fieldset>
+                    </fieldset>
 
-                <fieldset>
+                    <fieldset class="last">
 
-                    <legend>Secure your account!</legend>
+                        <legend class="pass">Secure your account!</legend>
 
-                    <label for="password">Password</label>
-                    <input type="password" id="password" required>
+                        <label for="password">Password</label>
+                        <input type="password" id="password" required>
 
-                    <label for="re-pass">Confirm Password</label>
-                    <input type="password" id="re-pass" required>
+                        <label for="re-pass">Confirm Password</label>
+                        <input type="password" id="re-pass" required>
 
-                </fieldset>
+                    </fieldset>
 
-                <button type="submit">Sign Up!</button>
+                    <button type="submit">Sign Up!</button>
 
-                <div class="login">Have an account already? <a href="google.com">Log in</a></div>
-            </form>
+                    <div class="login">Have an account already? <a href="google.com">Log in</a></div>
+                </form>
+            </div>
         </div>
     </div>
+    <p>Photo by <a href="https://unsplash.com/@markuswinkler">Markus Winkler</a> on <a href="https://unsplash.com">Unsplash</a></p>
 </body>
 </html>
